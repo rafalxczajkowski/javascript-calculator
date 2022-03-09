@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <!-- <link href="../../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <table>
+    <tr>
+      <th colspan="4" id="input-display"></th>
+    </tr>
+    <tr>
+      <th colspan="4" id="display">0</th>
+    </tr>
+    <tr>
+      <td colspan="2"><button class="btn-ac" id="clear">AC</button></td>
+      <td><button class="btn-operation" id="divide" value="/">/</button></td>
+      <td><button class="btn-operation" id="multiply" value="*">x</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn-main btn-number" id="seven" value="7">7</button></td>
+      <td><button class="btn-main btn-number" id="eight" value="8">8</button></td>
+      <td><button class="btn-main btn-number" id="nine" value="9">9</button></td>
+      <td><button class="btn-operation" id="subtract" value="-">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn-main btn-number" id="four" value="4">4</button></td>
+      <td><button class="btn-main btn-number" id="five" value="5">5</button></td>
+      <td><button class="btn-main btn-number" id="six" value="6">6</button></td>
+      <td><button class="btn-operation" id="add" value="+">+</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn-main btn-number" id="one" value="1">1</button></td>
+      <td><button class="btn-main btn-number" id="two" value="2">2</button></td>
+      <td><button class="btn-main btn-number" id="three" value="3">3</button></td>
+      <td rowspan="2"><button class="btn-equals" id="equals" value="=">=</button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button class="btn-main" id="zero" value="0">0</button></td>
+      <td><button class="btn-main" id="decimal" value=".">.</button></td>
+    </tr>
+  </table>
+    <!-- <script src="../../../assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./app.js"></script>  
+</body>
+</html>
