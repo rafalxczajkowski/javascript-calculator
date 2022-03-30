@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 :root {
-    --calc-bckgrd: #341C09;
-    --calc-ac: #236AB9;
-    --calc-oper: #B85B14;
-    --calc-num: #FC7307;
-    --calc-eq: #D4E4F7;
+    --calc-bckgrd: #3b3b3b;
+    --calc-ac: #E4F132;
+    --calc-oper: #0A3409;
+    --calc-num: #98CA32;
+    --calc-eq: #559E54;
 }
 
 * {
@@ -13,7 +13,7 @@
     font-family: 'Comfortaa', cursive;
 }
 body {
-    background-color: black;
+    background-color: #1d1d1d;
 }
 
 table {
@@ -39,6 +39,7 @@ th {
 }
 
 td {
+
     height: 60px;
     width:  60px;
     padding: 0px;
