@@ -155,6 +155,3 @@ let doubleSubtParenth = (str) => {
         return str;
     }
 }
-
-//testing
-// let y = '12--9*3--6+-8*-1';
