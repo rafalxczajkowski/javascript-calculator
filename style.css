@@ -2,7 +2,7 @@
 
 :root {
     --calc-bckgrd: #3b3b3b;
-    --calc-ac: #E4F132;
+    --calc-ac: #c1cc29;
     --calc-oper: #0A3409;
     --calc-num: #98CA32;
     --calc-eq: #559E54;
@@ -34,22 +34,22 @@ th {
 }
 
 #input-display {
-    color: var(--calc-eq);
+    color: var(--calc-ac);
     font-size: large;
 }
 
 td {
-
     height: 60px;
     width:  60px;
-    padding: 0px;
+    padding: 2px;
 }
 
 button {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    font-size: large;
+    font-size: 1.6rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
 }
 
 .btn-ac {
