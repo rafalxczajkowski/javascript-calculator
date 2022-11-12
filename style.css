@@ -1,69 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
-    --calc-bckgrd: #3b3b3b;
-    --calc-ac: #c1cc29;
-    --calc-oper: #0A3409;
-    --calc-num: #98CA32;
-    --calc-eq: #559E54;
+  --calc-bckgrd: #343434;
+  --calc-ac: #fc6a0d;
+  --calc-oper: #3d3936;
+  --calc-num: #7c7772;
+  --calc-eq: #559e54;
+  --btn-size: 60px;
+  --btn-padding: 6px;
 }
 
 * {
-    color: white;
-    font-family: 'Comfortaa', cursive;
+  color: white;
+  font-family: 'Comfortaa';
 }
+
 body {
-    background-color: #1d1d1d;
+  background-color: burlywood;
 }
 
 table {
-    margin: auto;
-    margin-top: 20vh;
-    background-color: var(--calc-bckgrd);
-    border-radius: 8px;
-    border-width: 200px;
-    border: 4px solid var(--calc-eq);
+  margin: auto;
+  margin-top: 20vh;
+  background-color: var(--calc-bckgrd);
+  border-radius: 8px;
+  border-width: 200px;
+  border: 4px solid black;
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
 }
 
 th {
-    height: 32px;
-    width: 100%;
-    font-size: x-large;
-    text-align: right;
-    padding: 5px;
+  background-color: #e6b921;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(200, 120, 29),
+    rgb(200, 200, 0)
+  );
+  color: black;
+  height: 32px;
+  width: 100%;
+  text-align: right;
+  padding: 5px;
+  border: 4px solid #464646;
 }
 
 #input-display {
-    color: var(--calc-ac);
-    font-size: large;
+  font-size: 1.8rem;
+  font-family: 'VT323';
+}
+
+#display {
+  font-size: 3rem;
+  font-family: 'VT323';
 }
 
 td {
-    height: 60px;
-    width:  60px;
-    padding: 2px;
+  height: var(--btn-size);
+  width: var(--btn-size);
+  padding: var(--btn-padding);
 }
 
 button {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    font-size: 1.6rem;
-    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+  width: 100%;
+  height: 100%;
+  border: 2px solid #1d1d1d;
+  border-radius: 7px;
+  font-size: 1.6rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  scale: 0.97;
 }
 
 .btn-ac {
-    background-color: var(--calc-ac);
+  /* background-color: var(--calc-ac); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 80, 0),
+    rgb(255, 200, 0)
+  );
 }
 
 .btn-main {
-    background-color: var(--calc-num);
+  /* background-color: var(--calc-num); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 80, 80),
+    rgb(180, 180, 180)
+  );
 }
 
 .btn-operation {
-    background-color: var(--calc-oper);
+  /* background-color: var(--calc-oper); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(40, 40, 40),
+    rgb(110, 110, 110)
+  );
 }
 
 .btn-equals {
-    background-color: var(--calc-eq);
+  /* background-color: var(--calc-eq); */
+  height: calc(2 * (var(--btn-size) + var(--btn-padding)));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(40, 40, 40),
+    rgb(110, 110, 110)
+  );
 }
