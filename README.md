@@ -1,4 +1,4 @@
-### JavaScript Calculator
+# JavaScript Calculator
 
-FreeCodeCamp project of JavaScript Calculator\
-Created with HTML, CSS, JavaScript
+## Description
+FreeCodeCamp project of JavaScript Calculator created with HTML, CSS, JavaScript.
